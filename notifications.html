@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Notifications</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Last Notification</h2>
+<p id="notify"></p>
+
+<script>
+document.getElementById("notify").innerText =
+localStorage.getItem("lastNotification");
+</script>
+
+</body>
+</html>

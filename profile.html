@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>User Profile</h2>
+<p>Username: <span id="userProfile"></span></p>
+
+<script>
+document.getElementById("userProfile").innerText =
+localStorage.getItem("user");
+</script>
+
+</body>
+</html>
